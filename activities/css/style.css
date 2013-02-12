@@ -1,0 +1,77 @@
+/*------------CSS Reset-------------*/
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	max-width: 920px;
+	background: #aaa;
+	width: 80%;
+	height: 100%;
+	font: 1em/1.2 'Libre Baskerville', serif;
+	color: #FFF;
+	margin: 0 auto;
+	padding: 0;
+}
+body> div {
+	margin: 0;
+	padding: 1.5%; /*15px*/
+	background: #444;
+	overflow: hidden;
+}
+h1,h2 ,h3, h4 {
+	font-family: 'Julius Sans One', sans-serif;
+}
+h2 {
+	font-weight: normal;
+	border-bottom: 1px solid #f00;
+	width: 35%;
+	margin-bottom: 10px;
+}
+a:link {
+	text-decoration: none;
+	color: #55f;
+}
+a:hover {
+	border-bottom: 1px solid #fff;
+}
+a:active{
+	border-bottom: 1px solid #f00;
+}
+a:visited {
+	color: #777;
+}
+article {
+	margin: 10px 0;
+	padding: 5px;
+	border: 2px solid #000;
+	-webkit-border-radius: 5px;
+	        border-radius: 5px;
+}
+p {
+	margin: 10px 0; 
+
+}
+ul {
+	list-style: none;
+	overflow: hidden;
+}
+li {
+	margin-left: 200px;
+	padding: 5px;
+	font-size: .8em;
+}
+li.float {
+	width: 45%;
+	display: block;
+	float: left;
+	padding: 5px;
+}
+footer {
+	border: 1px solid #000;
+	text-align: center;
+	background: #000;
+	padding: 0;
+	margin: 0;
+	font: .75em/25px 'Julius Sans One', sans-serif;
+}
