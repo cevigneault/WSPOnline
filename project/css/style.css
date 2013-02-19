@@ -1,2 +1,6 @@
 /*--------Global Reset---------*/
 @import "normalize.css";
+/*--------Navigation-----------*/
+nav ul {
+	text-decoration: none;
+}
